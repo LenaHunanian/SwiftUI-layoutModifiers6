@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @State var isEnabled = false
+    @State private var isEnabled = false
     var body: some View {
         VStack {
             Button(isEnabled ? "Tapped" :"Tap me") {
